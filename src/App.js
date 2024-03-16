@@ -15,6 +15,7 @@ import ReactHooks from "./Pages/ReactHooks";
 import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 import Profile from "./Pages/profile";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/react-hooks" component={ReactHooks} />
             <Route exact path="/ui-ux" component={UiUx} />
             <Route exact path="/form-example" component={FormExample} />
+            <Route exact path="/dashboardadmin" component={Dashboard} />
           </Switch>
         </ScrollToTop>
         <Footer />
