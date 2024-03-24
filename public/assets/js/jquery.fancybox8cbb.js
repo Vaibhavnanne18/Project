@@ -87,7 +87,7 @@
 			},
 			swf : {
 				wmode: 'transparent',
-				allowfullscreen   : 'true',
+				allowFullscreen   : 'true',
 				allowscriptaccess : 'always'
 			},
 
